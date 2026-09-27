@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "CoachFlow",
+    "slug": "coachflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "coachflow",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1013",
+    "android": {
+      "package": "az.coachflow.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0E1013",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.VIBRATE"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "coachflow",
+              "host": "join"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "az.coachflow.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0E1013",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CoachFlow uses your photos for progress pictures that only your coach sees."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
