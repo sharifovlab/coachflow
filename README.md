@@ -8,7 +8,7 @@ Live: https://coachflow-cyan.vercel.app
 
 - `web/` — the site. Plain HTML, CSS and JavaScript, no build step.
   - `app.js` — the whole app: coach dashboard (`/`), client screen (`/c/<token>`), public coach page (`/p/<slug>`).
-  - `i18n.js`, `i18n-fix.js` — texts in AZ and RU.
+  - `i18n.js` — texts in AZ and RU.
   - `foods.js` — local food database (approximate kcal and macros per 100 g).
   - `vercel.json` — routes `/c/*` and `/p/*` to the app.
 - `supabase/migrations/` — database schema, security rules and functions, in the order they were applied.

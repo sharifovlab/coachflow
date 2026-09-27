@@ -89,7 +89,7 @@ az:{tagline:"məşqçi kabineti",
  have_account:"Hesabınız var? Daxil olun",no_account:"Hesabınız yoxdur? Qeydiyyatdan keçin",logout:"Çıxış",
  check_email:"E-poçtunuzu yoxlayın və ünvanı təsdiqləyin, sonra daxil olun.",login_fail:"E-poçt və ya şifrə yanlışdır.",loading:"Yüklənir…",
  err_generic:"Yadda saxlamaq alınmadı. İnterneti yoxlayın və yenidən cəhd edin.",not_found:"Link tapılmadı. Məşqçinizdən yeni link istəyin.",
- too_many:"Çox sayда sorğu. Bir az sonra yenidən cəhd edin.",photo_fail:"Foto yüklənmədi, hesabat fotosuz göndərildi.",
+ too_many:"Çox sayda sorğu. Bir az sonra yenidən cəhd edin.",photo_fail:"Foto yüklənmədi, hesabat fotosuz göndərildi.",
  login_pitch:"Müştərilər, ödənişlər, proqramlar və hesabatlar bir yerdə. Müştərinin dilində WhatsApp xatırlatmaları.",
  days:["B.e.","Ç.a.","Ç.","C.a.","C.","Ş.","B."],months_s:["yan","fev","mar","apr","may","iyn","iyl","avq","sen","okt","noy","dek"]}
 };
