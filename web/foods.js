@@ -1,0 +1,33 @@
+// Approximate values per 100 g of the ready dish. k = kcal, p = protein, f = fat, c = carbs.
+window.FOODS = {
+ plov:{n:{az:"Toyuqlu plov",ru:"Плов с курицей"},k:180,p:7,f:7,c:22},
+ dolma:{n:{az:"Yarpaq dolması",ru:"Долма в листьях"},k:190,p:9,f:13,c:9},
+ qutab_g:{n:{az:"Göyərti qutabı",ru:"Кутаб с зеленью"},k:200,p:5,f:7,c:30},
+ qutab_m:{n:{az:"Ətli qutab",ru:"Кутаб с мясом"},k:250,p:10,f:11,c:28},
+ lule:{n:{az:"Lülə kabab",ru:"Люля-кебаб"},k:270,p:17,f:21,c:3},
+ tkabab:{n:{az:"Toyuq kababı",ru:"Куриный кебаб"},k:190,p:25,f:9,c:1},
+ chicken:{n:{az:"Toyuq döşü (qaynadılmış)",ru:"Куриная грудка отварная"},k:165,p:31,f:4,c:0},
+ beef:{n:{az:"Mal əti (qaynadılmış)",ru:"Говядина отварная"},k:250,p:26,f:16,c:0},
+ kutum:{n:{az:"Kütüm (sobada)",ru:"Кутум запечённый"},k:150,p:20,f:7,c:0},
+ egg:{n:{az:"Yumurta",ru:"Яйцо"},k:155,p:13,f:11,c:1},
+ kesmik:{n:{az:"Kəsmik 5%",ru:"Творог 5%"},k:121,p:17,f:5,c:3},
+ qatiq:{n:{az:"Qatıq",ru:"Катык"},k:60,p:3,f:3,c:4},
+ ayran:{n:{az:"Ayran",ru:"Айран"},k:30,p:2,f:2,c:2},
+ pendir:{n:{az:"Ağ pendir",ru:"Белый сыр"},k:260,p:17,f:21,c:1},
+ tendir:{n:{az:"Təndir çörəyi",ru:"Хлеб тандыр"},k:260,p:8,f:1,c:53},
+ lavash:{n:{az:"Lavaş",ru:"Лаваш"},k:275,p:9,f:1,c:56},
+ grechka:{n:{az:"Qarabaşaq (bişmiş)",ru:"Гречка варёная"},k:110,p:4,f:1,c:21},
+ rice:{n:{az:"Düyü (bişmiş)",ru:"Рис варёный"},k:130,p:3,f:0,c:28},
+ oat:{n:{az:"Yulaf sıyığı (suda)",ru:"Овсянка на воде"},k:88,p:3,f:2,c:15},
+ potato:{n:{az:"Kartof (qaynadılmış)",ru:"Картофель отварной"},k:86,p:2,f:0,c:20},
+ merci:{n:{az:"Mərci şorbası",ru:"Чечевичный суп"},k:70,p:4,f:2,c:10},
+ dushbara:{n:{az:"Düşbərə",ru:"Дюшбара"},k:110,p:6,f:4,c:12},
+ salad:{n:{az:"Pomidor-xiyar salatı (yağsız)",ru:"Салат из помидоров и огурцов (без масла)"},k:20,p:1,f:0,c:4},
+ oil:{n:{az:"Zeytun yağı",ru:"Оливковое масло"},k:884,p:0,f:100,c:0},
+ walnut:{n:{az:"Qoz",ru:"Грецкий орех"},k:654,p:15,f:65,c:14},
+ apple:{n:{az:"Alma",ru:"Яблоко"},k:52,p:0,f:0,c:14},
+ nar:{n:{az:"Nar",ru:"Гранат"},k:83,p:2,f:1,c:19},
+ xurma:{n:{az:"Xurma",ru:"Хурма"},k:70,p:1,f:0,c:19},
+ paxlava:{n:{az:"Paxlava",ru:"Пахлава"},k:430,p:7,f:22,c:52}
+};
+window.SLOTS = ["b","l","s","d"];
